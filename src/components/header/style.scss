@@ -1,0 +1,34 @@
+@import '../../styles/default.scss', '../../styles/typography.scss';
+
+header {
+    width: 100%;
+    margin-top: 28px;
+    .transparent-btn {
+        border: 1px solid $gray-medium;
+        border-radius: 5px;
+        width: 92px;
+        margin-right: 16px;
+        height: 38px;
+
+        font-family: $font-family-1;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $gray-medium;
+    }
+    .header-btn {
+        background: $brand-color-2;
+        border-radius: 5px;
+        height: 38px;
+        width: 130px;
+        font-family: $font-family-1;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $white;
+    }
+}
