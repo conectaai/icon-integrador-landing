@@ -1,5 +1,25 @@
-@import '../../styles/colors', '../../styles/formats';
+@import '../../styles/colors', '../../styles/typography.scss';
 
 .default-btn {
     height: 62px;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0px 28px;
+    font-family: $font-family-1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $white;
+    background-color: $brand-color-2;
+    border-radius: 5px;
+    &.transparent {
+        background-color: transparent;
+        border: 1px solid $gray-medium;
+        color: $gray-medium;
+        height: 38px;
+        font-size: 14px;
+    }
 }

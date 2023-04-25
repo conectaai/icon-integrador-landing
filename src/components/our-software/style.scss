@@ -1,0 +1,24 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.our-software {
+    padding-top: 124px;
+    .our-software-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 30px; 
+    }
+    .our-software-card {
+        padding: 16px 24px;
+        p {
+            max-width: 338px;
+        }
+    }   
+    h3 {
+        text-align: center;
+        margin-top: 88px;
+    }
+    .metric-label {
+        max-width: 114px;
+    }
+}

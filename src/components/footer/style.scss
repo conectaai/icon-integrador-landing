@@ -1,0 +1,42 @@
+@import '../../styles/default.scss', '../../styles/typography.scss';
+
+footer {
+    margin-top: 104px;
+    .footer-logo {
+        height: 56px;
+        width: 144px;
+        object-fit: contain;
+    }
+    .footer-info {
+        border-top: 1px solid #EBE9F1;
+        margin-top: 24px;
+        padding-top: 32px;
+        padding-bottom: 64px;
+        ul {
+            margin-bottom: 0px;
+            list-style: none;
+            padding-left: 0px;
+            li {
+                display: inline-block;
+                margin-right: 32px;
+                a {
+                    color: $text-color-2;
+                }
+            }
+        }
+    }
+    .social-list {
+        li {
+            margin-right: 24px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            a {
+                i {
+                    color: $black;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

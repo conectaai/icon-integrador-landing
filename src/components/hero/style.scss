@@ -1,0 +1,46 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.hero {
+    padding-top: 104px;
+    .hero-text-container {
+        max-width: 452px;
+        p {
+            margin-top: 16px;
+        }
+    }
+    .default-btn {
+        margin-top: 40px;
+    }
+    .img-container {
+        position: relative;
+        img {
+            width: 100%;
+            box-shadow: 0px 0px 24px -3px rgba(0, 0, 0, 0.16);
+            border-radius: 12px;
+            position: relative;
+            z-index: 3;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            height: 548px;
+            width: 548px;
+            top: -56px;
+            border-radius: 50%;
+            background-color: $brand-color;
+            opacity: 0.1;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .partners {
+        padding-top: 136px;
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 68px;
+            object-fit: contain;
+        }
+    }
+}

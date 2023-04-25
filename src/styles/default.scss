@@ -1,4 +1,13 @@
-@import 'colors';
+@import 'colors', 'typography';
+
+body {
+    font-family: $font-family-1;
+    color: $text-color;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+}
 
 a {
     text-decoration: none;

@@ -1,0 +1,55 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.our-interfaces {
+    background-color: $brand-color;
+    padding-top: 80px;
+    padding-bottom: 96px;
+    margin-top: 108px;
+    p {
+        color: $text-color-3;
+        max-width: 644px;
+        text-align: center;
+    }
+    h2 {
+        color: $white;
+    }
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .default-btn {
+        margin: 0px auto;
+    }
+    .nav-item {
+        &:first-child {
+            .nav-link {
+                border-radius: 40px 0px 0px 40px;
+            }
+        }
+    }
+    .nav-tabs {
+        border: none;
+        width: fit-content;
+        margin: 0px auto;
+        margin-bottom: 56px;
+        .nav-link {
+            border-radius: 0px 40px 40px 0px;
+            width: 160px;
+            height: 68px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.4px;
+            background: rgba(30, 30, 30, 0.12);
+            color: $white;
+            transition: 0.3s ease-in-out;
+            border: 1px solid transparent;
+            &.active {
+                background: rgba(234, 84, 85, 0.12);
+                border-color: #EBE9F1;
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+}

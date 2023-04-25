@@ -1,0 +1,11 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.innovative-solution {
+    padding-top: 136px;
+    p, h2 {
+        max-width: 562px;
+    }
+    .banner  {
+        margin-top: 146px;
+    }
+}
