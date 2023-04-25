@@ -4,7 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 import './style.scss';
 
-import operatorInterface from '../../images/operator-interface.svg';
+import operatorInterface from '../../images/operator-interface.png';
 import DefaultBtn from '../default-btn';
 
 export default function OurInterfaces() {

@@ -1,6 +1,6 @@
 import './style.scss';
 
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo.png';
 
 export default function Footer() {
 

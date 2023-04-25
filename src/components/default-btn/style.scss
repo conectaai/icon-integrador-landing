@@ -23,6 +23,9 @@
         color: $gray-medium;
         height: 38px;
         font-size: 14px;
+        &:hover {
+            background-color: $gray-medium;
+        }
     }
     &:hover {
         opacity: 0.8;

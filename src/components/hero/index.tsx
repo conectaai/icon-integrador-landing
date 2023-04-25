@@ -1,6 +1,6 @@
 import './style.scss';
 
-import hero from '../../images/hero.svg';
+import hero from '../../images/hero.png';
 import DefaultBtn from '../default-btn';
 import partners from '../../images/partners.png';
 
