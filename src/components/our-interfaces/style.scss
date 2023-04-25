@@ -53,3 +53,24 @@
         }
     }
 }
+
+@media(max-width: 991px) {
+    .our-interfaces {
+        padding-top: 56px;
+        padding-bottom: 48px;
+        margin-top: 56px;
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .nav-tabs {
+            .nav-link {
+                width: 120px;
+                height: 56px;
+                font-size: 14px;
+            }
+        }
+    } 
+}

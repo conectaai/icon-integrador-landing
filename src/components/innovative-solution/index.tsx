@@ -10,7 +10,7 @@ export default function InnovativeSolution() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src={solutionImage} alt="" />
+            <img src={solutionImage} alt="" className='img-fluid'/>
           </div>
           <div className="col-lg-6 my-auto">
             <h2 className='title-32-medium mb-sm'>Conheça quem está por trás dessa solução inovadora</h2>

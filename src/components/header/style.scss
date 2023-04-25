@@ -30,3 +30,11 @@ header {
         color: $white;
     }
 }
+
+@media(max-width: 991px) {
+    header {
+        .btns-container {
+            display: none !important;
+        }
+    }
+}

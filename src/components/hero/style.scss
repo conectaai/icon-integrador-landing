@@ -44,3 +44,33 @@
         }
     }
 }
+
+@media(max-width: 991px) {
+    .hero {
+        padding-top: 64px;
+        .hero-text-container {
+            margin: 0px auto;
+            text-align: center;
+        }
+        .default-btn {
+            margin: 32px auto 80px auto;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .hero {
+        .hero-title {
+            font-size: 32px;
+        }
+        .img-container::before {
+            height: 280px;
+            width: 280px;
+        }
+        .hero-text-container {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -18,7 +18,9 @@ export default function Banner(props: BannerProps) {
                     link='https://www.google.com'
                 />
             </div>
-            <img src={banner} alt="" />
+            <div className='banner-image-container d-flex align-items-center'>
+                <img src={banner} alt="" className='img-fluid'/>
+            </div>
         </div>
     );
 }

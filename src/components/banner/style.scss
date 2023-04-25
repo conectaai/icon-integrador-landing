@@ -1,29 +1,5 @@
 @import '../../styles/colors', '../../styles/typography.scss';
 
-.default-btn {
-    height: 62px;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding: 0px 28px;
-    font-family: $font-family-1;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.4px;
-    color: $white;
-    background-color: $brand-color-2;
-    border-radius: 5px;
-    &.transparent {
-        background-color: transparent;
-        border: 1px solid $gray-medium;
-        color: $gray-medium;
-        height: 38px;
-        font-size: 14px;
-    }
-}
-
 .banner {
     height: 444px;
     img {
@@ -48,6 +24,47 @@
             height: 444px;
             width: 412px;
             background: linear-gradient(90deg, #A02A23 0%, rgba(160, 42, 35, 0) 100%);
+        }
+    }
+    .banner-image-container {
+        flex: 1;
+        height: 100%;
+    }
+}
+
+@media(max-width: 991px) {
+    .banner {
+        flex-direction: column-reverse;
+        height: auto;
+        .label-container {
+            border-radius: 0px 0px 24px 24px;
+            width: 100%;
+            padding: 32px 16px 40px 16px;
+            align-items: center;
+            text-align: center;
+            &::after {
+                transform: translateX(0px);
+                width: 100%;
+                background: linear-gradient(0deg, #A02A23 0%, rgba(160, 42, 35, 0) 100%);
+                top: 0px;
+                transform: translateY(calc(-100% + 2px));
+                height: 220px;
+            }
+        }
+        .banner-image-container {
+            img {
+                border-radius: 24px 24px 0px 0px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .banner {
+        .label-container {
+            p {
+                font-size: 28px;
+            }
         }
     }
 }

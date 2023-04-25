@@ -41,7 +41,7 @@ export default function OurSoftware() {
           <div className="col-lg-3">
             <h2 className='title-32-medium'>Por que escolher nosso software de automação?</h2>
           </div>
-          <div className="col-lg-8 offset-1">
+          <div className="col-lg-8 offset-lg-1">
             <div className="our-software-cards-container">
               {softwareCards.map((item) => (
                 ourSoftwareCard(item.icon, item.title, item.text)

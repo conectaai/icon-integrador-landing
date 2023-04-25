@@ -40,3 +40,29 @@ footer {
         }
     }
 }
+
+@media(max-width: 991px) {
+    footer {
+        margin-top: 64px;
+        .footer-logo {
+            margin: 0px auto;
+            display: block;
+        }
+        .footer-info {
+            flex-direction: column;
+            ul {
+                &:first-child {
+                    li {
+                        display: block;
+                        text-align: center;
+                        margin-right: 0px;
+                        margin-bottom: 16px;
+                        &:last-child {
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
